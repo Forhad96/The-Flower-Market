@@ -46,8 +46,9 @@
 /* Style rule for section_one */
 
 .section_one {
-  height: 850px;
+  /* height: 850px; */
   background-color: rgba(229, 84, 115, 0.1);
+  margin-bottom: 100px;
 
 }
 
@@ -95,7 +96,7 @@
 
 .section_two_image {
   width: 370px;
-  height: 420px;
+  height: 450px;
   border-radius: 300px 300px 0px 0px;
   padding: 3.125rem 3.125rem 0 3.125rem;
 }
