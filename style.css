@@ -31,7 +31,8 @@
   border: none;
 }
 .container {
-  padding: 0 220px;
+  /* padding: 0 220px; */
+  margin:0 220px;
 }
 .white {
   color: rgba(255, 255, 255, 0.4);
@@ -46,13 +47,14 @@
 
 .section_one {
   height: 850px;
+  background-color: rgba(229, 84, 115, 0.1);
+
 }
 
 .section_one_wrapper {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: rgba(229, 84, 115, 0.1);
   padding-top: 3.125rem;
 }
 
@@ -178,10 +180,9 @@
 /* style rule for section_five */
 .section_five {
   border-radius: 8px;
-background: rgba(229, 84, 115, 0.05);
-margin: 7.5rem 0;
-padding: 50px 0;
-
+  background: rgba(229, 84, 115, 0.05);
+  margin: 7.5rem 0;
+  padding: 50px 0;
 }
 .section_five_wrapper {
   display: flex;
@@ -202,36 +203,50 @@ padding: 50px 0;
 }
 /* style rule for sectionI_six */
 
-
-.section_six{
+.section_six {
   margin-bottom: 120px;
 }
 
-
-.section_six_wrapper{
+.section_six_wrapper {
   text-align: center;
   display: flex;
   flex-direction: column;
   gap: 30px;
 }
-.section_six_card_wrapper{
+.section_six_card_wrapper {
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 24px;
-  
 }
 /* section_six_card */
-.section_card_img{
+.section_card_img {
   width: 300px;
-height: 400px;
+  height: 400px;
 }
 
+/* style rule for section_seven */
+.section_seven {
+  /* background-color: #e55473; */
+  margin-bottom: 120px;
+}
+.section_seven_wrapper {
+  text-align: center;
+  background: url("./Asset/Rectangle\ 9.png");
+  background-size: cover;
+  background-position: center;
+  padding: 120px 0;
 
-
-
-
-
+}
+.section_seven_input_wrapper input{
+  border-radius: 8px;
+background: #FFF;
+width: 700px;
+height: 64px;
+border: none;
+padding:0 20px;
+margin-right: 20px;
+}
 /*! style rule for footer */
 footer {
   background: #111010;
