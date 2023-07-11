@@ -80,6 +80,7 @@
 
 .section_two {
   text-align: center;
+  margin-bottom: 100px;
 }
 /* .section_two_wrapper{} */
 .section_two_item_wrapper {
@@ -118,11 +119,12 @@
 
 /* style rule for section_three */
 .section_three {
-  margin: 100px;
+  padding: 50px 0;
+  background-color: rgba(229, 84, 115, 0.05);
 }
 .section_three_title {
   text-align: center;
-  color: #e55473;
+  /* color: #e55473; */
   font-size: 48px;
   font-weight: 800;
 }
@@ -139,10 +141,14 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  border: 5px solid #e55473;
+  border: 5px solid rgba(229, 84, 115, 0.05);
   gap: 20px;
+  text-align: center;
   border-radius: 10px;
   padding: 10px 80px;
+}
+.section_three_review_title{
+  color: #272727;
 }
 .section_three_review_img {
   width: 160px;
@@ -173,7 +179,7 @@
   height: 88px;
   flex-shrink: 0;
 }
-.section_item_text {
+.section_four_item_text {
   color: rgba(39, 39, 39, 0.8);
   font-size: 20px;
   font-weight: 600;
