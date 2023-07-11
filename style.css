@@ -200,6 +200,37 @@ padding: 50px 0;
   width: 318px;
   height: 420px;
 }
+/* style rule for sectionI_six */
+
+
+.section_six{
+  margin-bottom: 120px;
+}
+
+
+.section_six_wrapper{
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.section_six_card_wrapper{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+  
+}
+/* section_six_card */
+.section_card_img{
+  width: 300px;
+height: 400px;
+}
+
+
+
+
+
 
 /*! style rule for footer */
 footer {
