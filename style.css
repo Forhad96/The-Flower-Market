@@ -151,7 +151,11 @@
 /* style rule for section_four */
 
 .section_four {
-  margin: 120px 0;
+  margin: 120px 220px;
+  background: rgba(39, 39, 39, 0.05);
+  padding: 5rem 0;
+
+
 }
 .section_four_item_wrapper {
   text-align: center;
@@ -159,9 +163,7 @@
   align-items: center;
   justify-content: center;
   border-radius: 8px;
-  background: rgba(39, 39, 39, 0.05);
   gap: 6.25rem;
-  padding: 5rem 0;
 }
 /* .section_four_item {
   padding: 1rem;
@@ -178,6 +180,7 @@
   line-height: 35px;
 }
 /* style rule for section_five */
+
 .section_five {
   border-radius: 8px;
   background: rgba(229, 84, 115, 0.05);
@@ -201,7 +204,7 @@
   width: 318px;
   height: 420px;
 }
-/* style rule for sectionI_six */
+/*! style rule for sectionI_six */
 
 .section_six {
   margin-bottom: 120px;
@@ -220,7 +223,10 @@
   justify-content: center;
   gap: 24px;
 }
+
 /* section_six_card */
+
+
 .section_card_img {
   width: 270px;
   height: 350px;
